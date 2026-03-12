@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+    basePath: "/mojito",
+    assetPrefix: "/mojito/",
     output: "export",
     images: {
       unoptimized: true
