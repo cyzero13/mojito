@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/mojito//_next/:path+",
+        "destination": "/mojito/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
