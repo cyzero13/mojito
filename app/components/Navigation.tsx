@@ -39,8 +39,8 @@ const Navigation = () => {
     ];
 
     return (
-        <nav className='fixed z-50 w-full top-0 md:px-10'>
-            <div className='flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-0 px-5  mx-auto'>
+        <nav className='fixed z-50 w-full'>
+            <div className='flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-0 px-5 container mx-auto'>
                 <a href="#home" className='flex gap-2 items-center justify-center cursor-pointer text-nowrap md:text-base text-sm'>
                     <img src="./images/logo.png" alt="logo" />
                     <p className='font-modern-negra text-3xl'>Velvet Pour</p>

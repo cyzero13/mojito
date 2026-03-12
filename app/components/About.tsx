@@ -33,7 +33,7 @@ const About = () => {
                     <p className='inline-block rounded-full bg-white text-black px-4 py-2 text-sm font-medium mb-8'>
                         Best Cocktails
                     </p>
-                    <h2>
+                    <h2 className='text-5xl md:text-6xl font-modern-negra max-w-lg'>
                         Where every detail matters <span className="text-white">-</span>
                         from muddle to garnish
                     </h2>
