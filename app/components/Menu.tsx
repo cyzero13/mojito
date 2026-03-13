@@ -112,7 +112,7 @@ const Menu = () => {
                 </button>
             </div>
             
-            <div className="cocktail flex-center mt-10">
+            <div className="flex justify-center items-center mt-10">
                 <img src={currentCocktail.image} className="object-contain h-[60vh]"/>
             </div>
             
